@@ -57,7 +57,7 @@ li a {
 	padding: 5px 0;
 }
 
-[class*="zocial-"]:before {
+[class*="icon-"]:before {
   font-family: 'zocial', sans-serif;
   font-size: 24px;
 }
