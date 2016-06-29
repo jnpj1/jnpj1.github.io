@@ -1,0 +1,123 @@
+body {
+	font-family: "Questrial", sans-serif;
+	color: #2f172c;
+}
+
+a {
+	color: #616371;
+}
+
+article {
+	padding-bottom: 50px;
+}
+
+li a {
+	color: #2f172c;
+}
+
+.logo {
+	max-width: 125px;
+}
+
+.accent-color {
+	color: #47716f;
+}
+
+.pop-color {
+	color: #616371;
+}
+
+.line-box {
+	padding: 0;
+}
+
+.line {
+	margin-top: 0;
+	border-top: 2px solid #616371;
+}
+
+.code-picture {
+	width:100%;
+	max-height: 150px;
+}
+
+.screenshot {
+	cursor: pointer;
+}
+
+.modal-text {
+	margin-top: 15px;
+}
+
+.contacts {
+	list-style: none;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	padding: 5px 0;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 24px;
+}
+
+a:hover {
+	color: #2f172c;
+}
+
+.social-link:hover {
+	text-decoration: none;
+	color: #47716f;
+}
+
+@media (max-width: 799px) {
+	.banner {
+		position: fixed;
+		background-color: white;
+		z-index: 99;
+		width: 100%;
+		padding: 0;
+	}
+
+	.line-box {
+		padding: 0;
+	}
+
+	.line {
+		margin-bottom: 0;
+	}
+
+	.jumbotron {
+		margin-top: 104px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 499px) {
+	.logo-box {
+		display: none;
+	}
+
+	.intro-box {
+		text-align: center;
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 399px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	h4 {
+		font-size: 17px;
+	}
+}
