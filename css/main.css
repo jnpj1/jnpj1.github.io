@@ -37,7 +37,7 @@ li a {
 }
 
 .code-picture {
-	width:100%;
+	width: 100%;
 	max-height: 150px;
 }
 
@@ -58,7 +58,7 @@ li a {
 }
 
 [class*="icon-"]:before {
-  font-family: 'zocial', sans-serif;
+  font-family: "zocial", sans-serif;
   font-size: 24px;
 }
 
@@ -99,12 +99,17 @@ a:hover {
 
 @media (max-width: 499px) {
 	.logo-box {
-		display: none;
+		width: 25%;
+	}
+
+	.logo {
+		margin-left: -25px;
 	}
 
 	.intro-box {
 		text-align: center;
-		width: 100%;
+		width: 75%;
+		margin-top: 5px;
 	}
 
 	h2 {
@@ -114,7 +119,7 @@ a:hover {
 
 @media (max-width: 399px) {
 	h1 {
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 	h4 {
